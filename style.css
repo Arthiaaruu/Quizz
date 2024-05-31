@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 242, 247);
+}
+.quizz-game{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 70%;
+    font-size: 17px;
+    text-align: center;
+    border: solid 2px gray;
+    box-shadow:rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+}
+.questions{
+    padding: 5px;
+}
+.submit-btn{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(23, 180, 23);
+    color: white;
+    
+}
+
+.submit-btn:hover{
+    background-color: green;
+}
+#result{
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: none;
+}
+.scorecard{
+    margin: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 50%;
+    border: solid 2px gray;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+#close-result{
+    margin-left: 85%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+@media screen and (max-width : 780px) {
+    #result{
+        height: 150%;
+
+    }
+    
+}
